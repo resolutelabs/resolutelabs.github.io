@@ -1169,7 +1169,7 @@ input, select, textarea {
 
 			#footer {
 				bottom: 3.5em;
-				left: 3.5em;
+				left: 4.5em;
 			}
 
 		}
@@ -1178,7 +1178,7 @@ input, select, textarea {
 
 			#footer {
 				bottom: 2em;
-				left: 2em;
+				left: 3em;
 			}
 
 		}
@@ -1197,7 +1197,7 @@ input, select, textarea {
 			#footer {
 				bottom: auto;
 				left: auto;
-				margin: 1em 0 0 0;
+				margin: 1em 0 0 1em;
 				position: relative;
 			}
 
