@@ -24,6 +24,11 @@ body {
     font-family: "Proxima Nova Soft", "Helvetica Neue", sans-serif !important;
 }
 
+.project-wildfire-page {
+    background: url('../../images/wildfire.jpg');
+    background-size: cover;
+}
+
 .footer {
     position: absolute;
     width: 100%;
