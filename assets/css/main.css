@@ -40,6 +40,7 @@ body {
     border-radius: 10px;
     font-size: 1.35em;
     width: 80%;
+    max-width: 800px;
     font-size: 160%;
     margin: 30px auto 0px auto;
     padding: 0px 2%;
@@ -62,6 +63,16 @@ body {
     left: calc(50% - 100px);
 }
 
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+    background: rgba(0, 0, 0, 0.4);
+    padding-bottom: 8px;
+    left: calc(50% - 100px);
+}
+
 .project-wildfire-page .footer p {
     background: none;
     font-size: 90%;
@@ -69,6 +80,16 @@ body {
     width: 100%;
     font-weight: 900;
     margin-top: 8px;
+}
+
+.footer p {
+    background: none padding: 0px;
+    width: 100%;
+    font-weight: 900;
+    background: none;
+    font-size: 16px;
+    margin: 5px 0px 0px;
+    text-align: center;
 }
 
 .footer-content {
