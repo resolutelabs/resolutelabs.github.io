@@ -1,0 +1,57 @@
+#content
+{
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding-top: 25%;
+  color: white;
+  font-size: 5em;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('jho3.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+body
+{
+/*  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(jho3.png);*/
+  background: url('jho3.png');
+  background-size:  cover;
+  background-position: center;
+  color: white;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.content{
+  padding-top: 25%;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
+               0px 10px 23px rgba(0,0,0,0.1);
+}
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
