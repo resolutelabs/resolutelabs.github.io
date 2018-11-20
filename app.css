@@ -28,7 +28,7 @@ body
                      rgba(20,20,20, .5), 
                      rgba(20,20,20, .5)),
                      url(jho3.png);*/
-  background: url('jho3.png');
+  /*background: url('jho3.png');*/
   background-size:  cover;
   background-position: center;
   color: white;
