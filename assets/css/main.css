@@ -8,7 +8,7 @@
 
 
 .smallquestions{
-    font-size: 16px !important;
+    /* font-size: 16px !important; */
     margin: 0px 10px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .sub-section {
-    margin: 7% 0px;
+    margin: 5% 0px;
 }
 header#header {
     width: 90%;
