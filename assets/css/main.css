@@ -6,6 +6,80 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+.smallquestions{
+    font-size: 16px !important;
+    margin: 0px 10px;
+}
+
+.sub-section h4{
+    margin: 0px;
+}
+
+.sub-section h3{
+    margin: 10px 0px;
+}
+
+.sub-section {
+    margin: 7% 0px;
+}
+header#header {
+    width: 90%;
+    top: 10%;
+    padding: 30px;
+    left: 5%;
+    position: absolute;
+}
+
+section#third {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+}
+
+section#third h2 {
+    margin: 0px 0px 10px 30px;
+    font-size: 21px;
+}
+
+input.button.alt {
+    width: 100%;
+}
+
+.actions li {
+    width: 140px;
+    padding: 0px;
+}
+
+.gtr-50{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 0px 0px;
+}
+
+.col-12{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 0px;
+
+}
+
+.actions.special{
+    display: flex;
+    margin: auto;
+    list-style: none;
+    width: fit-content;
+    padding: 0px;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -976,7 +1050,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-    background-color: #1cb495;
+    background-color: #a4a5a459;;
     border-radius: 6px;
     border: 0;
     color: #ffffff !important;
@@ -992,11 +1066,11 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-    background-color: #1fcaa7;
+    background-color: #4e4e4e59;
 }
 
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
-    background-color: #199e83;
+    background-color: #4e4e4e59;
 }
 
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
