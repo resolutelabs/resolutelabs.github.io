@@ -7,6 +7,22 @@
 */
 
 
+#email_input_form{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#email_input{
+    width: 30%;
+    min-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#email_submit_btn{
+    padding: 0px 10px;
+}
+
 .smallquestions{
     /* font-size: 16px !important; */
     margin: 0px 10px;
