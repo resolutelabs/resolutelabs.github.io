@@ -4401,7 +4401,7 @@ input, select, textarea {
 			left: 0;
 			border-radius: 0;
 			opacity: 0.5;
-            opacity: 0.9;
+            		opacity: 1;
 
 		}
 
