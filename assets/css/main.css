@@ -81,22 +81,18 @@ vertical-align: middle;
 
 #myVideo {
 
-
-	  position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  min-width: 100%;
-	  min-height: 100%;
-	  width: auto;
-	  height: auto;
-	  z-index: 0;
-	  -ms-transform: translateX(-50%) translateY(-50%);
-	  -moz-transform: translateX(-50%) translateY(-50%);
-	  -webkit-transform: translateX(-50%) translateY(-50%);
-	  transform: translateX(-50%) translateY(-50%);
-	  overflow: hidden;
-
-
+    object-fit: fill;
+    height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	overflow: hidden;
 
 }
 
@@ -4401,7 +4397,7 @@ input, select, textarea {
 			left: 0;
 			border-radius: 0;
 			opacity: 0.5;
-            		opacity: 1;
+            opacity: 1;
 
 		}
 
